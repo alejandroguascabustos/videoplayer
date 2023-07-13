@@ -1,0 +1,43 @@
+.button{
+
+    inline-size: 60px;
+    block-size: 60px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.button:active{  /* Transforma la imagen, en este caso la reduce para hacer el efecto boton */
+    transform: scale(.9);
+}
+
+
+#play{
+
+    background-image: url('../Image/play.png');
+
+}
+
+#pause{
+     background-image: url('../Image/pause.png');
+
+}
+
+
+#backward{
+    background-image: url('../Image/backward.png');
+
+
+}
+
+
+#forward{
+    background-image: url('../Image/forward.png');
+
+
+
+}
